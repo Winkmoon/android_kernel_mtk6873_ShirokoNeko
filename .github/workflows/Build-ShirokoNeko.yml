@@ -2,10 +2,7 @@ name: 编译-黑厂MT6873-安卓12ShirokoNeko内核
             支持ksu docker lxc
 
 on:
-  push:
   workflow_dispatch:
-  #schedule:
-    #- cron: '0 0 * * 5' # Run every friday at midnight
     
 jobs:
   build:
